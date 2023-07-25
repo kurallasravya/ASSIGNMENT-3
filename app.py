@@ -1,4 +1,6 @@
 a=23
-if a% 2 == 1:
-    print("not an even number")
-    print ("hi")
+if a% 2 == 0:
+    print("even number")
+else:
+    print ("odd number")
+    print("hi")
